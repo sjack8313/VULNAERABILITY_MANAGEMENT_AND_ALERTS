@@ -1,4 +1,4 @@
-$InstallerPath = "\\piac.piasecki.com\SYSVOL\piac.piasecki.com\scripts\vlc-3.0.21-win64.exe"
+$InstallerPath = "\\name\SYSVOL\name\scripts\vlc-3.0.21-win64.exe"
 $VLCPath = "C:\Program Files\VideoLAN\VLC\vlc.exe"
 
 # Function to retrieve the installed VLC version
