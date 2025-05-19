@@ -1,20 +1,20 @@
 📄 README – VLC Vulnerability Remediation (CVE-2024-46461)
 
-## 🔍 Overview
+## Overview
 This project addresses a real-world software vulnerability identified using **Nessus**. Specifically, it remediates a high-severity **Denial of Service (DoS) vulnerability** in **VLC Media Player < 3.0.21** — identified by **CVE-2024-46461**.
 
 Using a custom PowerShell script, we automate the detection of outdated VLC installations and silently install the secure version (3.0.21) across affected systems.
 
 ---
 
-## 🛠️ What’s Included
+##  What’s Included
 
 - `VLC_PATCH.ps1`: PowerShell script that checks VLC version and installs the secure version if needed.
 - `VLC_VULN_NESSUS.png`: Screenshot from Nessus showing the vulnerable VLC finding.
 
 ---
 
-## 🚨 Vulnerability Details
+## Vulnerability Details
 - **CVE ID**: [CVE-2024-46461](https://www.cve.org/CVERecord?id=CVE-2024-46461)
 - **Plugin ID**: 208025
 - **Severity**: High
@@ -23,7 +23,7 @@ Using a custom PowerShell script, we automate the detection of outdated VLC inst
 
 ---
 
-## ⚙️ Script Behavior
+##  Script Behavior
 The PowerShell script does the following:
 1. Checks if VLC is installed.
 2. Verifies the current VLC version.
